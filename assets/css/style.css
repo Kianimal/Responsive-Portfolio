@@ -1,0 +1,200 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0px;
+}
+
+.headerWrap{
+    padding: 0px;
+    height:100%;
+    margin:10px;
+    position:absolute;
+    top:40px;
+}
+
+#headerTeal {
+    color:#4aaaa5;
+    padding:20px;
+}
+
+#headerTealBox {
+    width:25%;
+    height:100%;
+    background-color:#4aaaa5;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    padding:10px;
+}
+
+p {
+    color:#777777;
+    padding:0px 20px 20px 20px;
+    margin:0px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.pPicAlign {
+    color:#777777;
+    width:640px;
+    padding:0px 20px 0px 0px;
+    margin:0px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    position: relative;
+    left:300px;
+}
+
+#contentAreaHead {
+    width:960px;
+    height:100%;
+    background-color: white;
+    margin:auto;
+    position: relative;
+}
+
+body{
+    background-image: url("../images/gray_jean.png");
+}
+
+#menu {
+    position: absolute;
+    right:0px;
+    top:40%;
+}
+
+#link{
+    color:#777777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#greyBar {
+    background-color: #eeeeee;
+    height:5px;
+    width:920px;
+    position: relative;
+    left:20px;
+}
+
+#contentAreaBody {
+    border:1px solid #dddddd;
+    width:960px;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    left:25%;
+    margin:130px auto;
+    padding: 0px 0px 20px;
+}
+
+header {
+    background-color: white;
+    width:100%;
+    height: 100px;
+    margin:auto;
+    border-bottom:2px solid #dddddd;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    height:7.5%;
+    color:#eeeeee;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#footerWrap{
+    width:50px;
+    text-align: center;
+    position: fixed;
+    bottom:0px;
+    left:50%;
+    margin-left: -25px;
+}
+
+#portrait {
+    background-image: url("../images/portrait.jpg");
+    width: 250px;
+    height:300px;
+    margin:0px 0px 20px 20px;
+    position: absolute;
+}
+
+.portfolioPic {
+    width:280px;
+    height:200px;
+    padding:20px;
+    display:inline-block;
+}
+
+.portfolioTealBar {
+    width:280px;
+    height: 40px;
+    color:white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    display:inline-block;
+    background-color: #4aaaa5;
+    position: relative;
+    top:-50px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+form {
+    margin:auto;
+    position:relative;
+    left:20px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.inputBox {
+    width: 910px;
+    margin: 5px 0px;
+    padding: 5px;
+    border:1px solid #eeeeee;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width:100px;
+    height:30px;
+    border:none;
+}
+
+#messageBox {
+    width: 910px;
+    margin:5px 0px;
+    padding: 5px;
+    height: 150px;
+    resize: vertical;
+    overflow:auto;
+    border:1px solid #eeeeee;
+}
+
+@media screen {
+    body {
+        max-width: 980px;
+    }
+}
+
+@media screen {
+    body {
+        max-width: 768px;
+    }
+}
+
+@media screen {
+    body {
+        max-width: 640px;
+    }
+}
